@@ -3,3 +3,5 @@
 	email = fumiya.chiba@nifty.com
 [color]
 	ui = true
+[core]
+	editor = /usr/bin/vi
