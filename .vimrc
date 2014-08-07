@@ -1,16 +1,16 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"set rtp+=~/.vim/bundle/vundle/
+"call vundle#rc()
 
-Bundle 'gmarik/vundle'
-Bundle 'Shougo/neocomplcache'
-Bundle 'kana/vim-fakeclip'
+"Bundle 'gmarik/vundle'
+"Bundle 'Shougo/neocomplcache'
+"Bundle 'kana/vim-fakeclip'
 
 
 
-filetype plugin indent on 
+"filetype plugin indent on 
 
 syntax on
 set tabstop=4

@@ -1,7 +1,11 @@
 [user]
-	name = CHIBA Fumiya
-	email = fumiya.chiba@nifty.com
+	name = Fumiya Chiba
+	email = fchiba@tombo.io
 [color]
 	ui = true
 [core]
-	editor = /usr/bin/vi
+	editor = /usr/bin/vim
+[alias]
+	st = status
+	sta = status
+	co = checkout

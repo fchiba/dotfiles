@@ -21,7 +21,7 @@ case ${UID} in
     PROMPT="%{${fg[white]}%}${HOST%%.*} ${PROMPT}"
   ;;
 *)
-  PROMPT="%{${fg[red]}%}%/ %%%{${reset_color}%} "
+  PROMPT="%{${fg[red]}%}%~ %%%{${reset_color}%} "
   PROMPT2="%{${fg[red]}%}%_ %%%{${reset_color}%} "
   SPROMPT="%{${fg[red]}%}%r is correct? [n,y,a,e]:%{${reset_color}%} "
   [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] && 
@@ -125,4 +125,4 @@ esac
 
 export PATH=$PATH:/Applications/android-sdk/platform-tools:~/bin
 
-eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"
